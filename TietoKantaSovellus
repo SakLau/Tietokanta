@@ -10,7 +10,8 @@ public class Tietokanta {
 	public static void main(String[] args) {
 		
 		public void connectToAndQueryDatabase(String username, String password) {
-			Connection con = DriverManager.getConnection(website link, username, password);
+			// Tähän tulisi verkkosivu, jossa tietokanta on luotu, käyttäjätunnus ja salasana sivustolle.
+			Connection con = DriverManager.getConnection(freemysglhosting, käyttätunnus, salasana);
 			
 			Statement stmt = con.createStatement();
 			//Esimerkkihaku tietokannan kirjasto, taulukosta kirja
