@@ -4,7 +4,7 @@ import java.sql.Statement;
 
 public class Tietokanta {
 
-		//En saanut luoutua tietokantaa, enkä siten yhditettyä sitä tähän ohjelmaan
+		//En saanut luotua tietokantaa, enkä siten yhditettyä sitä tähän ohjelmaan
 		// joten tämä jäi melko raakileeksi.
 	
 	public static void main(String[] args) {
