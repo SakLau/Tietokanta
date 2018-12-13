@@ -1,0 +1,27 @@
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class Tietokanta {
+
+		//En saanut luoutua tietokantaa, enkä siten yhditettyä sitä tähän ohjelmaan
+		// joten tämä jäi melko raakileeksi.
+	
+	public static void main(String[] args) {
+		
+		public void connectToAndQueryDatabase(String username, String password) {
+			Connection con = DriverManager.getConnection(website link, username, password);
+			
+			Statement stmt = con.createStatement();
+			//Esimerkkihaku tietokannan kirjasto, taulukosta kirja
+			ResultSet rs = stmt.executeQuery("Select kirjanNimi, sivumaara FROM kirja"); // Tähän tulisi ne tiedot mitä halutaan taulukosta ottaa
+			
+			while(rs.next()) {
+				String s = rs.getString("kirjanNimi");
+				int x = rs.getString("sivumaara");
+			}
+		}
+
+	}
+
+}
