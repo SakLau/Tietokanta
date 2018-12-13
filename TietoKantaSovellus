@@ -18,7 +18,7 @@ public class Tietokanta {
 			
 			while(rs.next()) {
 				String s = rs.getString("kirjanNimi");
-				int x = rs.getString("sivumaara");
+				int x = rs.getInt("sivumaara");
 			}
 		}
 
